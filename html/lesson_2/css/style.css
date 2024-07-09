@@ -1,0 +1,22 @@
+.padding_start{
+    padding: 10px 10px 30px 40px;
+    margin: 20px;
+    /* width: 1200px; */
+    max-width: 1200px;
+    min-height: 500px;
+    border: 1px solid #000;
+}
+
+.image_class{
+    width: 100%;
+    max-width: 900px;
+    min-width: 500px;
+}
+
+.over{
+    overflow:auto;
+    max-width: 300px;
+    max-height: 50px;
+    border: 1px solid #000;
+    display: block;
+}

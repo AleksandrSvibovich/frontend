@@ -1,0 +1,53 @@
+.image_background{
+    position: relative;
+    width: 100%;
+    top: -200px;
+
+}
+
+.background_form{
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 35%;
+    right: 60%;
+    float: left;
+    width: 650px;
+    height: 800px;
+    border-radius: 18px;
+    background-color: white;
+    opacity: 0.88;
+}
+
+
+.login_form{
+    padding: 25px;
+
+}
+
+.login_form_for_business{
+    
+}
+
+.title_of_form{
+    /* padding-top: 40px;
+    color: black;
+    text-align: center; */
+    font-family: "VTBGroupUI-Regular";
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 7rem;
+    text-align: center;
+}
+
+.button_login_type{
+    padding-left: 15%;
+    color: black;
+    background-color: white;
+    border-bottom: 2px;
+    border-color: blue;
+}
+
+.h2{
+   
+}
