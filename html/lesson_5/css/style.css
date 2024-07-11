@@ -1,7 +1,6 @@
 body{
     background: rgb(228, 225, 225);
-    font-family: Arial;
-    size: 28px;
+
 }
 
 .title{
@@ -13,6 +12,8 @@ body{
 }
 
 .description{
+    font-family: Arial;
+    size: 28px;
     color: #2b2a47;
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +33,8 @@ body{
 }
 
 .paragraphs{
+    font-family: Arial;
+    size: 28px;
     color:  #2b2a47;
     margin-left: auto;
     margin-right: auto;
