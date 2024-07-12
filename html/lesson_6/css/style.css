@@ -61,3 +61,39 @@ body{
 .button_style:active{
     background-color: rgb(207, 194, 194);   
 }
+
+.text_block{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.text_block::first-line{
+    color: rgb(83, 83, 199);
+    font-size: 20px;
+}
+
+.text_block::first-letter{
+    color: aqua;
+    font-size: 36px;
+}
+
+.button_style:hover::before{
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #f00808;
+    margin-right: 10px;
+    
+}
+
+.button_style:hover::after{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 5px;
+    background-color: #f00808;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
