@@ -12,7 +12,6 @@ body{
 .list div{
     background: url(../img/27406.svg) left no-repeat;
     background-size: 10px 10px;
-    background-image: red;
     padding-left: 20px;
     
 }
