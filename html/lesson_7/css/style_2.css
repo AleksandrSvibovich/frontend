@@ -1,0 +1,51 @@
+.content {
+    background: url(../img/Без\ названия.jfif) 0 0;
+    background-size: cover;
+
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    border: 2px solid rgb(3, 14, 7);
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(80, 83, 81, 0.35);
+    overflow: auto;
+}
+
+.list_unorder {
+    padding: 30px 50px 2px 50px;
+}
+
+.list_unorder li {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.btn_style {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: #78b890;
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    z-index: 2;
+}
+
+.btn_style_two::before {
+    content: '';
+    display: inline-block;
+    height: 18px;
+    width: 10px;
+    background-color: #000;
+    rotate: (45deg);
+/* 
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 5px;
+    background-color: #f00808;
+    margin-left: 10px;
+    margin-bottom: 3px; */
+}
